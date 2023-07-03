@@ -1,4 +1,5 @@
 #include <iostream>
+
 class Solution {
 public:
     static bool isPerfectSquare(int num) {
@@ -22,6 +23,7 @@ public:
         return 0;
     }
 };
+
 int main()
 {
     std::cout << Solution::isPerfectSquare(16);
